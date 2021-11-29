@@ -14,20 +14,6 @@ def logits4pred(criterion, logits_list):
     if criterion.__class__.__name__.lower() in ['bceloss']:
         logits = logits_list[0]
         probs = logits.sigmoid()
-    elif criterion.__class__.__name__.lower() in ['almloss']:
-        logits = torch.max(torch.max(torch.max(logits_list[0], logits_list[1]), logits_list[2]),
-                           logits_list[3])
-        probs = logits.sigmoid()
-    elif criterion.__class__.__name__.lower() in ['acrmloss']:
-        logits = (logits_list[1] + logits_list[2]) / 2
-        probs = logits.sigmoid()
-    elif criterion.__class__.__name__.lower() in ['tdrgloss']:
-        logits = 0.7 * logits_list[0] + 0.3 * logits_list[1]  # TDRG
-        probs = logits.sigmoid()
-    elif criterion.__class__.__name__.lower() in ['spasemconsloss']:
-        # logits = logits_list[1]
-        logits = 0.5 * logits_list[0] + 0.5 * logits_list[1]
-        probs = logits.sigmoid()
     else:
         assert False, f"{criterion.__class__.__name__.lower()} not exits"
 

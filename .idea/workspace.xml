@@ -5,92 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f12722b7-6a2f-4b3a-b8e4-524e86670bae" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/Rethinking_of_PAR.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/batch_engine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/default.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/multilabel_baseline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/multilabel_baseline/coco.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/pedes_baseline/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/pedes_baseline/pa100k.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/pedes_baseline/peta.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/pedes_baseline/peta_zs.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/pedes_baseline/rap_zs.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/pedes_baseline/rapv1.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/pedes_baseline/rapv2.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/COCO14/ml_anno/category.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/COCO14/ml_anno/coco14_train_anno.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/COCO14/ml_anno/coco14_val_anno.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/PA100k/dataset_all.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/PETA/dataset_all.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/PETA/dataset_zs_run0.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/RAP/dataset_all.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/RAP2/dataset_all.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/RAP2/dataset_zs_run0.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/augmentation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/autoaug.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/multi_label/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/multi_label/coco.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/multi_label/voc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/pedes_attr/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/pedes_attr/annotation.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/pedes_attr/pedes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/pedes_attr/preprocess/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/pedes_attr/preprocess/format_pa100k.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/pedes_attr/preprocess/format_peta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/pedes_attr/preprocess/format_rap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/pedes_attr/preprocess/format_rap2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/illus_zs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/infer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/losses/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/losses/bceloss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/losses/label_smoothing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/losses/scaledbceloss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metrics/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metrics/ml_metrics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metrics/pedestrian_metrics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/backbone/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/backbone/bninception.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/backbone/checkpoints/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/backbone/resnet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/backbone/resnet_ibn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/backbone/swin_transformer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/backbone/tresnet/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/backbone/tresnet/layers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/backbone/tresnet/layers/anti_aliasing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/backbone/tresnet/layers/avg_pool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/backbone/tresnet/layers/general_layers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/backbone/tresnet/tresnet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/backbone/vit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/base_block.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/model_ema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/model_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/registry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/optim/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/optim/adamw.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduler/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduler/cos_annealing_with_restart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduler/cosine_lr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scheduler/scheduler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/distributed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/vis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/train_gpu.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/batch_engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/batch_engine.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -505,7 +420,7 @@
       <workItem from="1637842627976" duration="32374000" />
       <workItem from="1637941148711" duration="18276000" />
       <workItem from="1638148581629" duration="1350000" />
-      <workItem from="1638151750208" duration="206000" />
+      <workItem from="1638151750208" duration="422000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1590195033606</created>
@@ -794,7 +709,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637552901477</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="init">
+      <created>1638151989176</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1638151989176</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
