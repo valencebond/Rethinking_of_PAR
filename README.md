@@ -6,7 +6,7 @@ _This [paper](https://arxiv.org/abs/2107.03576) submitted to TIP is the extensio
 
 #### This project aims to 
 1. provide a baseline of pedestrian attribute recognition.
-2. provide two datasets RAPzs and PETAzs following zero-shot pedestrian identity setting.
+2. provide two new datasets RAPzs and PETAzs following zero-shot pedestrian identity setting.
 3. provide a general training pipeline for pedestrian attribute recognition and multi-label classification task.
 
 #### This project provide
