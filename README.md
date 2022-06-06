@@ -3,6 +3,7 @@
 ![zero-shot](docs/illus_zs.png)
 _This [paper](https://arxiv.org/abs/2107.03576) submitted to TIP is the extension of the previous [Arxiv paper](https://arxiv.org/abs/2005.11909)._
 
+This project is adopted in the [JDAI-CV/fast-reid](https://github.com/JDAI-CV/fast-reid/tree/master/projects/FastAttr) and  [PP-Human](https://github.com/PaddlePaddle/PaddleDetection/blob/release/2.4/deploy/pphuman/docs/attribute.md) of PaddleDetection.
 
 #### This project aims to 
 1. provide a strong baseline for __Pedestrian Attribute Recognition__ and __Multi-Label Classification__.
